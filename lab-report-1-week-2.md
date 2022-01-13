@@ -1,2 +1,2 @@
 
-![Test](offlineediting.PNG)
+![Test Image](offlineediting.PNG)
