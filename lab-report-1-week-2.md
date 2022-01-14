@@ -22,11 +22,9 @@ On VSCode, open the terminal by clicking Terminal on the top of the screen then 
 
 In the terminal, you are going to input the following command where you replace "zz" with your own account what you previously looked up: **ssh cs15lwi22zz@ieng6.ucsd.edu**
 
-The first time you connect, you will be asked asked if you are sure that you want to continue connecting. You can you type yes and press enter. 
+The first time you connect, you will be asked if you are sure that you want to continue connecting. You can you type yes and press enter. Next, you will be prompted to give your password. Type in your password and press enter. It may seem like you aren't typing anything, but rest assured that you are. 
 
-You will be prompted to give your password. Type in your password and press enter. It may seem like you aren't typing anything, but rest assured that you are. 
-
-Once you are logged in, you should get a message like the one in the below image. This means that you're connected to the server aka a computer in the CSE basement. This means that the commands that you are running are actually running on the server.
+Once you are logged in, you should get a message like the one in the below image. This means that you're connected to the server aka a computer in the CSE basement and the commands that you are running are running on the server.
 
 ![SSH Logon](sshlogon.PNG)
 
