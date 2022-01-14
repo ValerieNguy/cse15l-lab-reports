@@ -39,6 +39,9 @@ Some commands that may be helpful that you can try in the terminal include **cd*
 
 Note: In order to logout of the remote server, you can type in the command **exit** to the terminal and press enter or press ctrl-D.
 
+Examples of Commands in screenshot:
+![Some Examples](ExamplesOfSomeCommands.PNG)
+
 ## Moving Files with **scp**
 
 You are going to need to be able to copy files between the client(in this case, your computer) and the remote server. To do so, you will be using the command **scp**.
@@ -57,15 +60,36 @@ You will need to reenter your password just like you did before when initially l
 
 As you can see, when you do **ls**, which lists the files in your current directory, WhereAmI.java shows up. This means that you have successfully copied the WhereAmI.java file onto the remote server!
 
-## Setting an SSH Key
+## Setting Up an SSH Key
 
-Now you need to set up an SSH key so that you won't be prompted to enter your password everytime you log onto the server. In short, you are going to use the **ssh-keygen** program which will create the public key which you will copy to the server and private key which you will copy to the client. This will 
+Now you need to set up an SSH key so that you won't be prompted to enter your password everytime you log onto the server. In short, you are going to use the **ssh-keygen** program which will create the public key file which you will copy to the server and private key file which you will copy to the client. The **ssh** will then use these files instead of your password. 
+
+Enter the command **ssh-keygen** and this is what you should do to set up the SSH key...
+
+![Keygen Part 1](sshKeygenCommand.jpg)
+
+For Windows, there is an extra step. Follow the steps in the screenshot below
+
+![Keygen Part 2](extraStepForWindowsKeygen.PNG)
+
+To copy the the public key to the .ssh directory that's on the server, follow the steps below (of course, replace my account with your account, and replace my public key with yours)
+(You can get your public key from when you used the **ssh-keygen** command earlier)
+
+![Keygen Part 3](thirdStepOfKeygen.PNG)
+
+After this is completed, when you **ssh** or **scp** to the server, you should not need to input your password anymore.
+
+Notice below how password is not asked for when logging back into the server!
+
+![Logging on with no password](sshkey.PNG)
+
 
 ## Optimizing Remote Running
 
+To make remote running faster, you can include commands in quotes after the **ssh** command to run them in the remote server. You can also use semicolons in between commands to run multiple commands on the same line.
+
+For example...
+![Example Commands](LastPartOfFirstLabReport.PNG)
 
 
-
-![Test Image](offlineediting.PNG)
-
-[Link For Index.md](index.md)
+And that concludes the steps to logging onto a course specific account on ieng6 !!
