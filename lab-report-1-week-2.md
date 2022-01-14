@@ -15,6 +15,18 @@ If you are on a Windows device, you must download a program called OpenSSH which
 
 Follow the steps on [this website](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to install OpenSSH.
 
+Everyone will need their account which can be found with the following link:
+[https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
+Your username is the username you use for TritonLink and the student ID is your ID that starts with A.
+
+With this information, we are able to remotely connect to the server. 
+
+On VSCode, open the terminal by clicking Terminal on the top of the screen then clicking New Terminal. 
+
+In the terminal, you are going to input the following command where you replace "zz" with your own account what you previously looked up:
+    ssh cs15lwi22zz@ieng6.ucsd.edu
+
+![SSH Logon](sshlogon.PNG)
 
 ## Trying Some Commands
 
