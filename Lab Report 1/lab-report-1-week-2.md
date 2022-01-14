@@ -20,11 +20,11 @@ Everyone will need their account which can be found with the following link:
 
 On VSCode, open the terminal by clicking Terminal on the top of the screen then clicking New Terminal. 
 
-In the terminal, you are going to input the following command where you replace "zz" with your own account what you previously looked up: **ssh cs15lwi22zz@ieng6.ucsd.edu**
+In the terminal, you are going to input the following command where you replace "zz" with your own account which is what you previously looked up: **ssh cs15lwi22zz@ieng6.ucsd.edu**
 
-The first time you connect, you will be asked if you are sure that you want to continue connecting. You can you type yes and press enter. Next, you will be prompted to give your password. Type in your password and press enter. It may seem like you aren't typing anything, but rest assured that you are. 
+The first time you connect, you will be asked if you are sure that you want to continue connecting. You can type yes and press enter. Next, you will be prompted to give your password. Enter in your password. It may seem like you aren't typing anything, but rest assured that you are!
 
-Once you are logged in, you should get a message like the one in the below image. This means that you're connected to the server aka a computer in the CSE basement and the commands that you are running are running on the server.
+Once you are logged in, you should get a message like the one in the below image. This means that you're connected to the server and the commands that you are running are running on the server.
 
 ![SSH Logon](sshlogon.PNG)
 
@@ -38,13 +38,13 @@ Examples of Commands in screenshot:
 
 ## Moving Files with **scp**
 
-You are going to need to be able to copy files between the client(in this case, your computer) and the remote server. To do so, you will be using the command **scp**.
+Copying files between the client(in this case, your computer) and the remote server is very important. To do so, you will be using the command **scp**.
 
 In order to exemplify how this works, you are going to need to create a file called "WhereAmI.java" with code as shown in the screenshot:
 
 ![WhereAmI Code](whereAmI.PNG)
 
-You can compile and run this file locally (on your computer, and not the server) with the **javac** and **java** commands. 
+You should be able to compile and run this file locally (on your computer, and not the server) with the **javac** and **java** commands. 
 
 Now, you can  run the following command (replacing zz with your respective account code):
 **scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu**
@@ -66,14 +66,14 @@ For Windows, there is an extra step. Follow the steps in the screenshot below
 
 ![Keygen Part 2](extraStepForWindowsKeygen.PNG)
 
-To copy the the public key to the .ssh directory that's on the server, follow the steps below (of course, replace my account with your account, and replace my public key with yours)
+To copy the the public key to the .ssh directory that's on the server, follow the steps below (of course, replace my account with your account, and replace my public key with yours) I had trouble with this originally because I kept using the private key so don't be like me!!
 (You can get your public key from when you used the **ssh-keygen** command earlier)
 
 ![Keygen Part 3](thirdStepOfKeygen.PNG)
 
-After this is completed, when you **ssh** or **scp** to the server, you should not need to input your password anymore.
+After this is completed, when you **ssh** or **scp** to the server, you should not need to input your password anymore. YAY!
 
-Notice below how password is not asked for when logging back into the server!
+Notice below how my password is not asked for when logging back into the server!
 
 ![Logging on with no password](sshkey.PNG)
 
