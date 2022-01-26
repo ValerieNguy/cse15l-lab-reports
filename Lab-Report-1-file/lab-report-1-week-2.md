@@ -87,3 +87,10 @@ For example...
 
 
 And that concludes the steps to logging onto a course specific account on ieng6 !!
+
+Most Pleasant Process to Making a Local Edit to a File, Copying It to the Remote Server, And Running It
+
+![Easy Process For Local Edit](lastScreenshotForLabReport1.PNG)
+
+In order to copy paste the commands to make the one line command to copying a local edit to the remote server and running it, it took 14 keystrokes. The generated command first copies the contents of the file from the local server to the remote server, then it logs into the remote server to compile and run the file.
+After having this command made, it should only take 2 keystrokes since you can just use the up arrow key to get the command again. 
