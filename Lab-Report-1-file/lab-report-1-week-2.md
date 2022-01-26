@@ -88,7 +88,7 @@ For example...
 
 And that concludes the steps to logging onto a course specific account on ieng6 !!
 
-Most Pleasant Process to Making a Local Edit to a File, Copying It to the Remote Server, And Running It
+**Pleasant Process to Making a Local Edit to a File, Copying It to the Remote Server, And Running It**
 
 ![Easy Process For Local Edit](lastScreenshotForLabReport1.PNG)
 
