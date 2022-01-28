@@ -22,10 +22,10 @@ The program doesn't take into account any cases other than when there is a link 
 
 ## Code Change 3
 
-![Image of Third Change]()
+![Image of Third Change](codeChange3.PNG)
 
 Link to Test File 3: [https://github.com/ValerieNguy/markdown-parse/blob/main/test-file3.md](https://github.com/ValerieNguy/markdown-parse/blob/main/test-file3.md)
 
-![Image of Third Symptom]()
+![Image of Third Symptom](symptom3Lab2.PNG)
 
-
+In this case, the [] and the () are far from each other (the failure-inducing input). The program still recognizes the link inside of the parentheses when it should as it is no longer in the link format which is the bug. Because of this, the output of the program when ran is that the link is still part of the output list when is shouldn't. This would be the symptom. 
