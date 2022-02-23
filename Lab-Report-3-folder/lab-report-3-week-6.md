@@ -1,4 +1,4 @@
-# Week 4 Lab Report
+# Week 6 Lab Report
 
 ## Copy Whole Directories with `scp -r`
 
