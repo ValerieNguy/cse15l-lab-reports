@@ -11,7 +11,7 @@ Test for Snippet #1:
 ![Test for snippet 1](test1.PNG)
 
 Expected Output From Snippet #1 According to VSCode Preview
-[`google.com, google.com, ucsd.edu]
+``[`google.com, google.com, ucsd.edu]``
 
 Output From Test For My Repository:
 ![Output from Test for MyRepo #1](labreport4_failed_snippet4.PNG)
@@ -26,7 +26,7 @@ Test for Snippet #2:
 ![Test for snippet 2](test2.PNG)
 
 Expected Output From Snippet #2 According to VSCode Preview:
-[a.com, a.com(()), example.com]
+`[a.com, a.com(()), example.com]`
 
 Output From Test For My Repository:
 ![Output from Test for MyRepo #2](labreport4_failed_snippet5.PNG)
@@ -41,7 +41,7 @@ Test for Snippet #3:
 ![Test for snippet 3](test3.PNG)
 
 Expected Output From Snippet #3 According to VSCode Preview:
-[https://ucsd-cse15l-w22.github.io/]
+`[https://ucsd-cse15l-w22.github.io/]`
 
 Output From Test For My Repository:
 ![Output from Test for MyRepo #3](labreport4_failed_snippet6.PNG)
