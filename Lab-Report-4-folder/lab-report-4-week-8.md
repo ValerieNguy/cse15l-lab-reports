@@ -10,15 +10,30 @@ Link to Markdown_Parse That I Reviewed:
 Expected Output From Snippet #1 According to VSCode Preview
 [`google.com, google.com, ucsd.edu]
 
-Test for Snippet #1:
+Test for Snippet #1 In Reviewed Repository:
 ![Test for snippet 1](test1.PNG)
 
+Output From Test For My Repository:
+![Output from Test for MyRepo #1](labreport4_failed_snippet4.PNG)
+
 Output from Test for Reviewed Repository:
-![Output from Test for Reviewed Repository](labreport4_failed_snippet1.PNG)
+![Output from Test for Reviewed Repo #1](labreport4_failed_snippet1.PNG)
 
 
 Expected Output From Snippet #2 According to VSCode Preview:
 [a.com, a.com(()), example.com]
 
+Output From Test For My Repository:
+![Output from Test for MyRepo #2](labreport4_failed_snippet5.PNG)
+
+Output from Test for Reviewed Repository:
+![Output from Test for Reviewed Repo #2](labreport4_failed_snippet2.PNG)
+
 Expected Output From Snippet #3 According to VSCode Preview:
 [https://ucsd-cse15l-w22.github.io/]
+
+Output From Test For My Repository:
+![Output from Test for MyRepo #3](labreport4_failed_snippet6.PNG)
+
+Output from Test for Reviewed Repository:
+![Output from Test for Reviewed Repo #3](labreport4_failed_snippet3.PNG)
