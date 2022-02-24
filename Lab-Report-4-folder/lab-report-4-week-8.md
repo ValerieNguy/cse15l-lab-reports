@@ -19,7 +19,9 @@ Output From Test For My Repository:
 Output from Test for Reviewed Repository:
 ![Output from Test for Reviewed Repo #1](labreport4_failed_snippet1.PNG)
 
+Both my repository and the reviewed repository didn't pass this test. They also both had the same output.
 
+## Snippet #2
 Expected Output From Snippet #2 According to VSCode Preview:
 [a.com, a.com(()), example.com]
 
@@ -29,6 +31,9 @@ Output From Test For My Repository:
 Output from Test for Reviewed Repository:
 ![Output from Test for Reviewed Repo #2](labreport4_failed_snippet2.PNG)
 
+My repository and the reviewed repository had the same output from snippet #2 and both of them failed the test.
+
+## Snippet #3
 Expected Output From Snippet #3 According to VSCode Preview:
 [https://ucsd-cse15l-w22.github.io/]
 
