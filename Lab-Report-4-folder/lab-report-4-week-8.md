@@ -6,7 +6,7 @@ Link to My Markdown-Parse Repository:
 Link to Markdown-Parse That I Reviewed:
 [https://github.com/jordan-nishi/markdown-parse](https://github.com/jordan-nishi/markdown-parse)
 
-Link to My Copy of the Markdown-Parse That I Reviewed That I Edited:
+Link to My Clone of the Markdown-Parse That I Reviewed:
 [https://github.com/ValerieNguy/reviewed-markdown-parse](https://github.com/ValerieNguy/reviewed-markdown-parse)
 
 ## Snippet #1
@@ -14,7 +14,7 @@ Test for Snippet #1:
 (used the same test for my repository and reviewed repository because the expected output is the same)
 ![Test for snippet 1](test1.PNG)
 
-Expected Output From Snippet #1 According to VSCode Preview
+Expected Output From Snippet #1 According to CommonMark Demo Site:
 ``[`google.com, google.com, ucsd.edu]``
 
 Output From Test For My Repository:
@@ -30,7 +30,7 @@ Test for Snippet #2:
 (used the same test for my repository and reviewed repository because the expected output is the same)
 ![Test for snippet 2](test2.PNG)
 
-Expected Output From Snippet #2 According to VSCode Preview:
+Expected Output From Snippet #2 According to CommonMark Demo Site:
 `[a.com, a.com(()), example.com]`
 
 Output From Test For My Repository:
@@ -46,7 +46,7 @@ Test for Snippet #3:
 (used the same test for my repository and reviewed repository because the expected output is the same)
 ![Test for snippet 3](test3.PNG)
 
-Expected Output From Snippet #3 According to VSCode Preview:
+Expected Output From Snippet #3 According to CommonMark Demo Site:
 `[https://ucsd-cse15l-w22.github.io/]`
 
 Output From Test For My Repository:
