@@ -3,11 +3,12 @@
 Link to My Markdown-Parse Repository:
 [https://github.com/ValerieNguy/markdown-parse2](https://github.com/ValerieNguy/markdown-parse2)
 
-Link to Markdown_Parse That I Reviewed:
+Link to Markdown-Parse That I Reviewed:
 [https://github.com/jordan-nishi/markdown-parse](https://github.com/jordan-nishi/markdown-parse)
 
 ## Snippet #1
 Test for Snippet #1:
+(used the same test for my repository and reviewed repository because the expected output is the same)
 ![Test for snippet 1](test1.PNG)
 
 Expected Output From Snippet #1 According to VSCode Preview
@@ -23,6 +24,7 @@ Both my repository and the reviewed repository didn't pass this test. They also 
 
 ## Snippet #2
 Test for Snippet #2:
+(used the same test for my repository and reviewed repository because the expected output is the same)
 ![Test for snippet 2](test2.PNG)
 
 Expected Output From Snippet #2 According to VSCode Preview:
@@ -38,6 +40,7 @@ My repository and the reviewed repository had the same output from snippet #2 an
 
 ## Snippet #3
 Test for Snippet #3:
+(used the same test for my repository and reviewed repository because the expected output is the same)
 ![Test for snippet 3](test3.PNG)
 
 Expected Output From Snippet #3 According to VSCode Preview:
