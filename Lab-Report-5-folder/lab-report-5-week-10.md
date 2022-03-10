@@ -3,7 +3,8 @@
 ## How I Found the Tests With Different Results
 I used the `diff` command on the results of running a bash for loop. My exact command was `diff markdown-parse2/results.txt markdown-parse/results.txt` where markdown-parse2 was the name of the folder with my personal MarkdownParse.java and markdown-parse was the name of folder with the provided MarkdownParse.java. This printed out the differences between the results.txt file in my repository and the results.txt file in the provided repository. This command also printed out the line where there was the difference so I could look at the results.txt files to find the name of the test file where the outputs didn't matched (since I added code to print out the name of the file in Lab 9 using `echo`). 
 
- ## Test 1
+## Test 1
+
  This is for the test file "201.md" where the contents of the file are shown in the screenshot below.
  ![Image of Test File 1](testFile1.PNG)
 
@@ -17,6 +18,7 @@ I used the `diff` command on the results of running a bash for loop. My exact co
  ![Image of Test File 1 Bug Fix](testFile1Fix.PNG)
 
 ## Test 2
+
 This is for the test file "487.md" where the contents of the file are shown in the screenshow below.
 ![Image of Test File 2](testFile2.PNG)
 
